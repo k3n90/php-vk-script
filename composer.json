@@ -1,0 +1,12 @@
+{
+    "name": "insid/php-vk-script",
+    "authors": [
+        {
+            "name": "terrorible",
+            "email": "insidious_vision@mail.ru"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "1.0.0"
+    }
+}
