@@ -1,2 +1,2 @@
-# php_vk_script
+# php-vk-script
 Case from TargetHunter
