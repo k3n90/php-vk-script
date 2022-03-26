@@ -171,11 +171,11 @@ function insertInMongoDb($usersData, $databaseConnectionUrl, $databaseName, $inp
 try {
 $action = insertInMongoDb(getInfo($inputGroupId, $version, $token, $fields, $totalMembers), $databaseConnectionUrl, $databaseName, $inputGroupId);
   if ($action){
-    echo "\n+++ COMLETED! +++\nRecorded members in DB: ".$action."\nTotal members in this group: ".$totalMembers."\n";
+    echo "\n+++ COMPLETED! +++\nRecorded members in DB: ".$action."\nTotal members in this group: ".$totalMembers."\n";
   }
 }
 catch (e) {
-  echo("--- FAILED\n");
+  echo("--- FAILED ---\n");
   print_r(e);
 }
 
